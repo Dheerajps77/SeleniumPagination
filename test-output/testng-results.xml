@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-17T21:19:39 IST" name="Suite" finished-at="2024-05-17T21:20:08 IST" duration-ms="28308">
+    <groups>
+    </groups>
+    <test started-at="2024-05-17T21:19:39 IST" name="Test" finished-at="2024-05-17T21:20:08 IST" duration-ms="28308">
+      <class name="amazon.com.tests.AmazonSearchProducts">
+        <test-method signature="searchProductOnFlipkart(java.lang.String,java.lang.String)[pri:0, instance:amazon.com.tests.AmazonSearchProducts@48e1f6c7]" started-at="2024-05-17T21:19:39 IST" name="searchProductOnFlipkart" finished-at="2024-05-17T21:20:08 IST" duration-ms="28257" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.flipkart.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductOnFlipkart -->
+      </class> <!-- amazon.com.tests.AmazonSearchProducts -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
